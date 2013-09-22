@@ -53,6 +53,11 @@ Router
 Utility
 =======
 
+File
+----
+
+- :php:meth:`File::replaceText()` was added.
+
 Hash
 ----
 

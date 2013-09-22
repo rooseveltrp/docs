@@ -550,7 +550,7 @@ File API
 
     :rtype: string
 
-    Returns the full path of the File.
+    Returns the full path of the File. 
 
 
 .. php:method:: read( $bytes = false, $mode = 'rb', $force = false )
@@ -565,6 +565,13 @@ File API
     :rtype: boolean
 
     Returns true if the File is readable.
+    
+
+.. php:method:: replaceText( $search, $replace )
+
+    :rtype: string
+
+    Replaces all occurrences of search with the given replace value.
 
 
 .. php:method:: safe( $name = NULL, $ext = NULL )
